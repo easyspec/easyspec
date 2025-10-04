@@ -1,0 +1,11 @@
+pre-commit:
+  parallel: true
+  commands:
+    prettier:
+      glob: "*.{js,jsx,ts,tsx,css,md,json}"
+      run: npx prettier --write {staged_files} && git add {staged_files}
+
+    eslint:
+      glob: "*.{js,jsx,ts,tsx}"
+      run: npx eslint {staged_files} --fix --max-warnings=150 && git add {staged_files} || true
+      fail_text: "ESLint found issues. Consider fixing them gradually."

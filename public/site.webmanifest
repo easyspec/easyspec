@@ -1,0 +1,16 @@
+{
+  "name": "EasySpec",
+  "short_name": "EasySpec",
+  "description": "Visual YAML Configuration Builder",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#00F5A0",
+  "background_color": "#0A0E27",
+  "display": "standalone",
+  "start_url": "/"
+}
