@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://easyspec.io/sitemap.xml
